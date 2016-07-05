@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660596DA1D2AAD57008F280F /* DLCKPIResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 660596D91D2AAD57008F280F /* DLCKPIResponseParser.m */; };
+		660596E01D2AB035008F280F /* DLCKPIItemTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 660596DF1D2AB035008F280F /* DLCKPIItemTimePeriod.m */; };
+		660596E41D2AB061008F280F /* DLCKPIItemValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 660596E31D2AB061008F280F /* DLCKPIItemValue.m */; };
+		660596E81D2AB6FF008F280F /* NSObject+ClassNameString.m in Sources */ = {isa = PBXBuildFile; fileRef = 660596E71D2AB6FF008F280F /* NSObject+ClassNameString.m */; };
+		665F910E1D2A8FFD00CFFC24 /* DLCDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F91091D2A8FFD00CFFC24 /* DLCDashboardViewController.m */; };
+		665F910F1D2A8FFD00CFFC24 /* DLCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F910D1D2A8FFD00CFFC24 /* DLCLoginViewController.m */; };
+		665F91151D2A905A00CFFC24 /* DLCKPITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F91131D2A905A00CFFC24 /* DLCKPITableViewCell.m */; };
+		665F91161D2A905A00CFFC24 /* DLCKPITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665F91141D2A905A00CFFC24 /* DLCKPITableViewCell.xib */; };
+		665F91191D2A91F500CFFC24 /* DLCKPIItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 665F91181D2A91F500CFFC24 /* DLCKPIItem.m */; };
+		66BAD2271D2A8C1000FA0239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BAD2171D2A8C1000FA0239 /* Assets.xcassets */; };
+		66BAD2281D2A8C1000FA0239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BAD2191D2A8C1000FA0239 /* LaunchScreen.storyboard */; };
+		66BAD2291D2A8C1000FA0239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BAD21B1D2A8C1000FA0239 /* Main.storyboard */; };
+		66BAD22A1D2A8C1000FA0239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAD2201D2A8C1000FA0239 /* AppDelegate.m */; };
+		66BAD22C1D2A8C1000FA0239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BAD2261D2A8C1000FA0239 /* main.m */; };
+		66F66DCA1D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F66DC91D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.m */; };
+		66F66DCF1D2B977100AB6FF7 /* DLCNetworkingGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F66DCE1D2B977100AB6FF7 /* DLCNetworkingGateway.m */; };
+		66F66DD21D2B9AF600AB6FF7 /* DLCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F66DD11D2B9AF600AB6FF7 /* DLCError.m */; };
+		7A564C27902FF7A63B403EA9 /* Pods_Dmytro_Lutsenko_CodeIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D081757F9891692DBF6B54AF /* Pods_Dmytro_Lutsenko_CodeIT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51EE8C6AC3B2DFD6AEEF5389 /* Pods-Dmytro Lutsenko CodeIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dmytro Lutsenko CodeIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dmytro Lutsenko CodeIT/Pods-Dmytro Lutsenko CodeIT.debug.xcconfig"; sourceTree = "<group>"; };
+		660596D81D2AAD57008F280F /* DLCKPIResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCKPIResponseParser.h; sourceTree = "<group>"; };
+		660596D91D2AAD57008F280F /* DLCKPIResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCKPIResponseParser.m; sourceTree = "<group>"; };
+		660596DB1D2AADBD008F280F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660596DE1D2AB035008F280F /* DLCKPIItemTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCKPIItemTimePeriod.h; sourceTree = "<group>"; };
+		660596DF1D2AB035008F280F /* DLCKPIItemTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCKPIItemTimePeriod.m; sourceTree = "<group>"; };
+		660596E21D2AB061008F280F /* DLCKPIItemValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCKPIItemValue.h; sourceTree = "<group>"; };
+		660596E31D2AB061008F280F /* DLCKPIItemValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCKPIItemValue.m; sourceTree = "<group>"; };
+		660596E61D2AB6FF008F280F /* NSObject+ClassNameString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassNameString.h"; sourceTree = "<group>"; };
+		660596E71D2AB6FF008F280F /* NSObject+ClassNameString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassNameString.m"; sourceTree = "<group>"; };
+		665F91081D2A8FFD00CFFC24 /* DLCDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCDashboardViewController.h; sourceTree = "<group>"; };
+		665F91091D2A8FFD00CFFC24 /* DLCDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCDashboardViewController.m; sourceTree = "<group>"; };
+		665F910C1D2A8FFD00CFFC24 /* DLCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCLoginViewController.h; sourceTree = "<group>"; };
+		665F910D1D2A8FFD00CFFC24 /* DLCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCLoginViewController.m; sourceTree = "<group>"; };
+		665F91121D2A905A00CFFC24 /* DLCKPITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCKPITableViewCell.h; sourceTree = "<group>"; };
+		665F91131D2A905A00CFFC24 /* DLCKPITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCKPITableViewCell.m; sourceTree = "<group>"; };
+		665F91141D2A905A00CFFC24 /* DLCKPITableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLCKPITableViewCell.xib; sourceTree = "<group>"; };
+		665F91171D2A91F500CFFC24 /* DLCKPIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCKPIItem.h; sourceTree = "<group>"; };
+		665F91181D2A91F500CFFC24 /* DLCKPIItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCKPIItem.m; sourceTree = "<group>"; };
+		66BAD1F81D2A874500FA0239 /* Dmytro Lutsenko CodeIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dmytro Lutsenko CodeIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BAD2171D2A8C1000FA0239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66BAD21A1D2A8C1000FA0239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BAD21C1D2A8C1000FA0239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66BAD21F1D2A8C1000FA0239 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66BAD2201D2A8C1000FA0239 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66BAD2261D2A8C1000FA0239 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F66DC81D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCKPISurroundingPeriodValue.h; sourceTree = "<group>"; };
+		66F66DC91D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCKPISurroundingPeriodValue.m; sourceTree = "<group>"; };
+		66F66DCD1D2B977100AB6FF7 /* DLCNetworkingGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCNetworkingGateway.h; sourceTree = "<group>"; };
+		66F66DCE1D2B977100AB6FF7 /* DLCNetworkingGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCNetworkingGateway.m; sourceTree = "<group>"; };
+		66F66DD01D2B9AF600AB6FF7 /* DLCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCError.h; sourceTree = "<group>"; };
+		66F66DD11D2B9AF600AB6FF7 /* DLCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCError.m; sourceTree = "<group>"; };
+		BC0200D2C3B8870924101754 /* Pods-Dmytro Lutsenko CodeIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dmytro Lutsenko CodeIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dmytro Lutsenko CodeIT/Pods-Dmytro Lutsenko CodeIT.release.xcconfig"; sourceTree = "<group>"; };
+		D081757F9891692DBF6B54AF /* Pods_Dmytro_Lutsenko_CodeIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dmytro_Lutsenko_CodeIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BAD1F51D2A874500FA0239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A564C27902FF7A63B403EA9 /* Pods_Dmytro_Lutsenko_CodeIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162E0C152150EBB40EC576B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D081757F9891692DBF6B54AF /* Pods_Dmytro_Lutsenko_CodeIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D9DED7E4852508F89EE0A08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51EE8C6AC3B2DFD6AEEF5389 /* Pods-Dmytro Lutsenko CodeIT.debug.xcconfig */,
+				BC0200D2C3B8870924101754 /* Pods-Dmytro Lutsenko CodeIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		660596D61D2AAD30008F280F /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				660596D71D2AAD30008F280F /* DLCKPIResponseParser */,
+				66F66DCC1D2B976400AB6FF7 /* DLCNetworkingGateway */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		660596D71D2AAD30008F280F /* DLCKPIResponseParser */ = {
+			isa = PBXGroup;
+			children = (
+				660596D81D2AAD57008F280F /* DLCKPIResponseParser.h */,
+				660596D91D2AAD57008F280F /* DLCKPIResponseParser.m */,
+			);
+			path = DLCKPIResponseParser;
+			sourceTree = "<group>";
+		};
+		660596DD1D2AAFF7008F280F /* DLCKPIItemTimePeriod */ = {
+			isa = PBXGroup;
+			children = (
+				660596DE1D2AB035008F280F /* DLCKPIItemTimePeriod.h */,
+				660596DF1D2AB035008F280F /* DLCKPIItemTimePeriod.m */,
+			);
+			path = DLCKPIItemTimePeriod;
+			sourceTree = "<group>";
+		};
+		660596E11D2AB04C008F280F /* DLCKPIItemValue */ = {
+			isa = PBXGroup;
+			children = (
+				660596E21D2AB061008F280F /* DLCKPIItemValue.h */,
+				660596E31D2AB061008F280F /* DLCKPIItemValue.m */,
+			);
+			path = DLCKPIItemValue;
+			sourceTree = "<group>";
+		};
+		660596E51D2AB6CE008F280F /* NSObject+ClassNameString */ = {
+			isa = PBXGroup;
+			children = (
+				660596E61D2AB6FF008F280F /* NSObject+ClassNameString.h */,
+				660596E71D2AB6FF008F280F /* NSObject+ClassNameString.m */,
+			);
+			path = "NSObject+ClassNameString";
+			sourceTree = "<group>";
+		};
+		66242F291D2A9B97000B6DD7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				660596E51D2AB6CE008F280F /* NSObject+ClassNameString */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		665F91061D2A8FFD00CFFC24 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				665F91071D2A8FFD00CFFC24 /* Dashboard */,
+				665F910B1D2A8FFD00CFFC24 /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		665F91071D2A8FFD00CFFC24 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				665F91081D2A8FFD00CFFC24 /* DLCDashboardViewController.h */,
+				665F91091D2A8FFD00CFFC24 /* DLCDashboardViewController.m */,
+				665F910A1D2A8FFD00CFFC24 /* DLCKPITableViewCell */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		665F910A1D2A8FFD00CFFC24 /* DLCKPITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				665F91121D2A905A00CFFC24 /* DLCKPITableViewCell.h */,
+				665F91131D2A905A00CFFC24 /* DLCKPITableViewCell.m */,
+				665F91141D2A905A00CFFC24 /* DLCKPITableViewCell.xib */,
+			);
+			path = DLCKPITableViewCell;
+			sourceTree = "<group>";
+		};
+		665F910B1D2A8FFD00CFFC24 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				665F910C1D2A8FFD00CFFC24 /* DLCLoginViewController.h */,
+				665F910D1D2A8FFD00CFFC24 /* DLCLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		665F91101D2A902E00CFFC24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				665F91111D2A902E00CFFC24 /* DLCKPIItem */,
+				66F66DCB1D2B96F700AB6FF7 /* DLCError */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		665F91111D2A902E00CFFC24 /* DLCKPIItem */ = {
+			isa = PBXGroup;
+			children = (
+				665F91171D2A91F500CFFC24 /* DLCKPIItem.h */,
+				665F91181D2A91F500CFFC24 /* DLCKPIItem.m */,
+				660596DD1D2AAFF7008F280F /* DLCKPIItemTimePeriod */,
+				660596E11D2AB04C008F280F /* DLCKPIItemValue */,
+				66F66DC71D2ACA7800AB6FF7 /* DLCKPISurroundingPeriodValue */,
+			);
+			path = DLCKPIItem;
+			sourceTree = "<group>";
+		};
+		66BAD1EF1D2A874500FA0239 = {
+			isa = PBXGroup;
+			children = (
+				66BAD2141D2A8C1000FA0239 /* Dmytro Lutsenko CodeIT */,
+				66BAD1F91D2A874500FA0239 /* Products */,
+				3D9DED7E4852508F89EE0A08 /* Pods */,
+				162E0C152150EBB40EC576B1 /* Frameworks */,
+				660596DB1D2AADBD008F280F /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		66BAD1F91D2A874500FA0239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD1F81D2A874500FA0239 /* Dmytro Lutsenko CodeIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BAD2141D2A8C1000FA0239 /* Dmytro Lutsenko CodeIT */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD21D1D2A8C1000FA0239 /* Source */,
+				66BAD2151D2A8C1000FA0239 /* Resources */,
+				66BAD2251D2A8C1000FA0239 /* Supporting Files */,
+			);
+			path = "Dmytro Lutsenko CodeIT";
+			sourceTree = "<group>";
+		};
+		66BAD2151D2A8C1000FA0239 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD2161D2A8C1000FA0239 /* ImageAssets */,
+				66BAD2181D2A8C1000FA0239 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		66BAD2161D2A8C1000FA0239 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD2171D2A8C1000FA0239 /* Assets.xcassets */,
+			);
+			path = ImageAssets;
+			sourceTree = "<group>";
+		};
+		66BAD2181D2A8C1000FA0239 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD2191D2A8C1000FA0239 /* LaunchScreen.storyboard */,
+				66BAD21B1D2A8C1000FA0239 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		66BAD21D1D2A8C1000FA0239 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD21E1D2A8C1000FA0239 /* AppDelegate */,
+				66242F291D2A9B97000B6DD7 /* Categories */,
+				665F91061D2A8FFD00CFFC24 /* ViewControllers */,
+				665F91101D2A902E00CFFC24 /* Models */,
+				660596D61D2AAD30008F280F /* Logic */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		66BAD21E1D2A8C1000FA0239 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD21F1D2A8C1000FA0239 /* AppDelegate.h */,
+				66BAD2201D2A8C1000FA0239 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		66BAD2251D2A8C1000FA0239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BAD2261D2A8C1000FA0239 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F66DC71D2ACA7800AB6FF7 /* DLCKPISurroundingPeriodValue */ = {
+			isa = PBXGroup;
+			children = (
+				66F66DC81D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.h */,
+				66F66DC91D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.m */,
+			);
+			path = DLCKPISurroundingPeriodValue;
+			sourceTree = "<group>";
+		};
+		66F66DCB1D2B96F700AB6FF7 /* DLCError */ = {
+			isa = PBXGroup;
+			children = (
+				66F66DD01D2B9AF600AB6FF7 /* DLCError.h */,
+				66F66DD11D2B9AF600AB6FF7 /* DLCError.m */,
+			);
+			path = DLCError;
+			sourceTree = "<group>";
+		};
+		66F66DCC1D2B976400AB6FF7 /* DLCNetworkingGateway */ = {
+			isa = PBXGroup;
+			children = (
+				66F66DCD1D2B977100AB6FF7 /* DLCNetworkingGateway.h */,
+				66F66DCE1D2B977100AB6FF7 /* DLCNetworkingGateway.m */,
+			);
+			path = DLCNetworkingGateway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BAD1F71D2A874500FA0239 /* Dmytro Lutsenko CodeIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BAD20F1D2A874500FA0239 /* Build configuration list for PBXNativeTarget "Dmytro Lutsenko CodeIT" */;
+			buildPhases = (
+				F4754FED72DDF99D35120D64 /* [CP] Check Pods Manifest.lock */,
+				66BAD1F41D2A874500FA0239 /* Sources */,
+				66BAD1F51D2A874500FA0239 /* Frameworks */,
+				66BAD1F61D2A874500FA0239 /* Resources */,
+				70B7CD6C149899D8B4AA277A /* [CP] Embed Pods Frameworks */,
+				F0AFFFFDB7B3D29882F12BDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dmytro Lutsenko CodeIT";
+			productName = "Dmytro Lutsenko CodeIT";
+			productReference = 66BAD1F81D2A874500FA0239 /* Dmytro Lutsenko CodeIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BAD1F01D2A874500FA0239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DLC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CodeIT;
+				TargetAttributes = {
+					66BAD1F71D2A874500FA0239 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 66BAD1F31D2A874500FA0239 /* Build configuration list for PBXProject "Dmytro Lutsenko CodeIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66BAD1EF1D2A874500FA0239;
+			productRefGroup = 66BAD1F91D2A874500FA0239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BAD1F71D2A874500FA0239 /* Dmytro Lutsenko CodeIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BAD1F61D2A874500FA0239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BAD2291D2A8C1000FA0239 /* Main.storyboard in Resources */,
+				66BAD2271D2A8C1000FA0239 /* Assets.xcassets in Resources */,
+				665F91161D2A905A00CFFC24 /* DLCKPITableViewCell.xib in Resources */,
+				66BAD2281D2A8C1000FA0239 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70B7CD6C149899D8B4AA277A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dmytro Lutsenko CodeIT/Pods-Dmytro Lutsenko CodeIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0AFFFFDB7B3D29882F12BDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dmytro Lutsenko CodeIT/Pods-Dmytro Lutsenko CodeIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4754FED72DDF99D35120D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BAD1F41D2A874500FA0239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665F910F1D2A8FFD00CFFC24 /* DLCLoginViewController.m in Sources */,
+				660596E41D2AB061008F280F /* DLCKPIItemValue.m in Sources */,
+				660596E01D2AB035008F280F /* DLCKPIItemTimePeriod.m in Sources */,
+				66F66DCA1D2ACA9200AB6FF7 /* DLCKPISurroundingPeriodValue.m in Sources */,
+				66F66DD21D2B9AF600AB6FF7 /* DLCError.m in Sources */,
+				66BAD22C1D2A8C1000FA0239 /* main.m in Sources */,
+				660596DA1D2AAD57008F280F /* DLCKPIResponseParser.m in Sources */,
+				66BAD22A1D2A8C1000FA0239 /* AppDelegate.m in Sources */,
+				660596E81D2AB6FF008F280F /* NSObject+ClassNameString.m in Sources */,
+				665F91191D2A91F500CFFC24 /* DLCKPIItem.m in Sources */,
+				665F910E1D2A8FFD00CFFC24 /* DLCDashboardViewController.m in Sources */,
+				66F66DCF1D2B977100AB6FF7 /* DLCNetworkingGateway.m in Sources */,
+				665F91151D2A905A00CFFC24 /* DLCKPITableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66BAD2191D2A8C1000FA0239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BAD21A1D2A8C1000FA0239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		66BAD21B1D2A8C1000FA0239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BAD21C1D2A8C1000FA0239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BAD20D1D2A874500FA0239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66BAD20E1D2A874500FA0239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66BAD2101D2A874500FA0239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EE8C6AC3B2DFD6AEEF5389 /* Pods-Dmytro Lutsenko CodeIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeit.Dmytro-Lutsenko-CodeIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66BAD2111D2A874500FA0239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0200D2C3B8870924101754 /* Pods-Dmytro Lutsenko CodeIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeit.Dmytro-Lutsenko-CodeIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BAD1F31D2A874500FA0239 /* Build configuration list for PBXProject "Dmytro Lutsenko CodeIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BAD20D1D2A874500FA0239 /* Debug */,
+				66BAD20E1D2A874500FA0239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BAD20F1D2A874500FA0239 /* Build configuration list for PBXNativeTarget "Dmytro Lutsenko CodeIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BAD2101D2A874500FA0239 /* Debug */,
+				66BAD2111D2A874500FA0239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BAD1F01D2A874500FA0239 /* Project object */;
+}

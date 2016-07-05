@@ -1,0 +1,18 @@
+PODS:
+  - Motis (1.4.3)
+  - SVProgressHUD (2.0.3)
+  - YLProgressBar (3.8.1)
+
+DEPENDENCIES:
+  - Motis (~> 1.4.0)
+  - SVProgressHUD
+  - YLProgressBar (~> 3.8.1)
+
+SPEC CHECKSUMS:
+  Motis: c9440ea861d7530d20eb4643adcabd55cfebc44b
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  YLProgressBar: c6699d75d58042377132c9301d3ab8fd0204937d
+
+PODFILE CHECKSUM: 90bf40b363cc9698e4ecdaaec063a99022212513
+
+COCOAPODS: 1.0.1
